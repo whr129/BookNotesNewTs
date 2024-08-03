@@ -1,0 +1,23 @@
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/bookshelf-7-1-1614288894.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    .title {
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        padding-top: 30vh;
+    }
+    .content {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 5vh;
+    }
+    .btn {
+        padding-top: 5vh;
+    }
+}

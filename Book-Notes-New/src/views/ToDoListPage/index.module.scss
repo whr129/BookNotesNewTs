@@ -1,0 +1,19 @@
+.flexDis {
+    display: flex;
+    .newToDoForm {
+        border: solid;
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+        margin-right: 40px;
+        .title {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .toDoList {
+        width: 500px;
+        height: 500px;
+        overflow: auto;
+    }
+}

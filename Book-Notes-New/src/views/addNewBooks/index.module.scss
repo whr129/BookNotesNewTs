@@ -1,0 +1,25 @@
+.wrap {
+    // height: 600px;
+    width: 85%;
+}
+.form {
+    // margin: 5px;
+    .formItem {
+        margin-right: 10px;
+    }
+}
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    .author {
+        overflow:hidden;
+
+        text-overflow:ellipsis;
+
+        display:-webkit-box;
+
+        -webkit-box-orient:vertical;
+
+        -webkit-line-clamp:2;
+    }
+}
